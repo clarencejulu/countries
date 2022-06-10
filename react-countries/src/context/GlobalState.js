@@ -22,7 +22,7 @@ export const GlobalProvider = ({ children }) => {
             const response = await fetch(url);
             const data = await response.json();
             setCountries(data);
-            console.log(continent);
+            console.log(data);
 
         }
             getCountries(API_URL + allCountries);  

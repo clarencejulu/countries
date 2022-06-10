@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/" element={<><Filter /><Main /></>}/>
+          <Route exact path="countries/" element={<><Filter /><Main /></>}/>
           <Route exact path="/detail" element={<Detail />} />
         </Routes>
       </Router>
