@@ -87,11 +87,7 @@ This was my first application of [React Router Dom](https://v5.reactrouter.com/w
 ### Continued development
 
 I want to continue doing projects that involve working with API's as i enjoy working with them. I also want to work more with [React Router Dom](https://v5.reactrouter.com/web/guides/quick-start) and would look to do a project that entails me working with it and a CSS Framework like Bootstrap as I have only done one project with a CSS Framework.
-<<<<<<< HEAD
 Finally, I also want to post more projects on github as so far i have only posted one project [here](https://clarencejulu.github.io/track-ip-addy/).
-=======
-Finally, I also want to post more projects on github as so far i have only posted one project.
->>>>>>> c894cb72594273ef8577a94cffe75414e138b327
 
 ### Useful resources
 
@@ -100,17 +96,10 @@ Finally, I also want to post more projects on github as so far i have only poste
 
 ## Author
 
-<<<<<<< HEAD
 - Frontend Mentor - [@clarencejulu](https://www.frontendmentor.io/profile/clarencejulu)
 - Github - [My Github](https://github.com/clarencejulu)
-
-
-=======
 - Website - []()
-- Frontend Mentor - [@clarencejulu](https://www.frontendmentor.io/profile/clarencejulu)
-- Github - [My Github](https://github.com/clarencejulu)
 - Twitter - []()
 - LinkedIn - []()
 - Indeed - []()
 
->>>>>>> c894cb72594273ef8577a94cffe75414e138b327
