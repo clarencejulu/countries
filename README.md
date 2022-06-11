@@ -44,13 +44,8 @@ Users should be able to:
 
 ### Links
 
-<<<<<<< HEAD
 - [Repository](https://github.com/clarencejulu/countries)
 - [Live Site](https://clarencejulu.github.io/countries/)
-=======
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
->>>>>>> c894cb72594273ef8577a94cffe75414e138b327
 
 ## My process
 
