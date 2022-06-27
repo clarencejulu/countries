@@ -100,6 +100,6 @@ Finally, I also want to post more projects on github as so far i have only poste
 - Github - [My Github](https://github.com/clarencejulu)
 - Website - []()
 - Twitter - []()
-- LinkedIn - []()
+- LinkedIn - [My LinkedIn Profile](https://www.linkedin.com/in/clarence-onumajulu/)
 - Indeed - []()
 
