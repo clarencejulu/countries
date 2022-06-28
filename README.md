@@ -47,7 +47,6 @@ Users should be able to:
 - [Repository](https://github.com/clarencejulu/countries)
 - [Live Site](https://clarencejulu.github.io/countries/)
 
-
 ## My process
 
 ### Built with
