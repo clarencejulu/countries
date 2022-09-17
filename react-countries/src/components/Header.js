@@ -10,9 +10,9 @@ export const Header = () => {
   const {theme, changeTheme} = useContext(ThemeContext);
   const navigate = useNavigate();
   return (
-    <div className="headerComponent">
+    <header className="headerComponent">
       <h1 onClick={() => navigate("/countries")}>Where in the world?</h1>
       <h2 onClick={() => { setDarkMode(!darkMode); changeTheme(darkMode ? theme.light : theme.dark); }}> <FontAwesomeIcon icon={darkMode ? fas : far} /> Dark Mode</h2> 
-    </div>
+    </header>
   )
 }

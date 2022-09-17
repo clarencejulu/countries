@@ -6,12 +6,12 @@ export const Main = () => {
   const {countries, term, continent} = useContext(GlobalContext);
 
   return (
-    <div className='mainComponent'>
+    <main className='mainComponent'>
       { countries
         .filter(country => country.name.toLowerCase().includes(term.toLowerCase()))
         .filter(country => continent === 'World' || continent === 'Filter by Region' ? country.region.includes('') : country.region.includes(continent))
         .map((country, id) => <Country key={id} country={country} />) 
       }
-    </div>
+    </main>
   )
 }

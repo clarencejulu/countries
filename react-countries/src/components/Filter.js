@@ -8,15 +8,17 @@ export const Filter = () => {
   const [dropDown, setDropDown] = useState(false);
 
   return (
-    <div className='filterComponent'>
+    <aside className='filterComponent'>
 
       <form autoComplete="off" className="searchbar" autoFocus onSubmit={(event) => event.preventDefault()}>
         <FontAwesomeIcon icon={faSearch} className="searchIcon"/>
-        <input type="text" className="searchSpace" id="search" value={term} onChange={ (event) => changeTerm(event.target.value)} placeholder="Search for a country..." />
+        <label for="searchFilter" />
+        <input type="text" className="searchSpace" id="search" value={term} onChange={ (event) => changeTerm(event.target.value)} placeholder="Search for a country..." name='searchFilter'/>
       </form>
 
       <form className="filterbar" onClick={()=> {setDropDown(!dropDown)}} onSubmit={(event) => event.preventDefault()}>
-        <input type="text" value={continent} readOnly />
+        <label for="regionFilter" />
+        <input type="text" value={continent} readOnly name="regionFilter"/>
         <FontAwesomeIcon icon={faCaretDown} className='dropdown-icon'/>
         <div className={dropDown ? 'options' : 'options hide'} id='options'>
           <div onClick={() => changeContinent('World')}><FontAwesomeIcon icon={faGlobe} /> World</div>
@@ -28,6 +30,6 @@ export const Filter = () => {
         </div>
 
       </form>
-    </div>
+    </aside>
   )
 }

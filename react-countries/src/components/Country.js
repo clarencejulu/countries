@@ -37,7 +37,7 @@ const Country = ({ country }) => {
     nativeName:nativeName, subregion:subregion, topLevelDomain: topLevelDomain[0], currencies: country.name === 'Antarctica' ? '' : currencies[0].name, languages:languageString, borders:borderString 
   }})};
     
-  return (<div className='country' onClick={() => toDetailPage()}>
+  return (<div className='country' onClick={() => toDetailPage()} tabIndex="0">
 
     <div className='flag' style={{backgroundImage: `url(${flag})`}}></div>
     <h3>{name}</h3>
